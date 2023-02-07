@@ -285,10 +285,9 @@
 
 <script>
     document.getElementById("realbutton").addEventListener("click", function() {
-    document.getElementById("realisation").innerHTML = "";                                                                                          Mise en Place d'un reseau IoT LOraWan, Conception d'un tableau de bord pour la surveillance en temps réels  des différents objets connectes";
+    document.getElementById("realisation").innerHTML = "";                                                                                         
     });
-</script>
-<script>
+
     var marquee = document.getElementById("myMarquee");
   
     marquee.addEventListener("mouseover", function() {
@@ -298,8 +297,7 @@
     marquee.addEventListener("mouseout", function() {
       marquee.start();
     });
-  </script>
-  <script>
+
     var elements = document.getElementsByClassName("element");
     var currentElement = 0;
     var displayInterval = setInterval(function() {
@@ -307,13 +305,11 @@
       currentElement = (currentElement + 1) % elements.length;
       elements[currentElement].style.display = "block";
     }, 1000);
-  </script>
-  <script>
+ 
     document.getElementById("myButton").addEventListener("click", function() {
       document.getElementById("myElement").scrollIntoView();
     });
-  </script>
-  <script>
+ 
     window.onload = function() {
       document.getElementById("welcome").style.display = "block";
     };
