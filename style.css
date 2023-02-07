@@ -245,16 +245,18 @@ body{
     background-color:rgb(5, 0, 0);
 }
 
-/* styles pour les écrans larges */
-@media only screen and (min-width: 768px) {
-  body {
-    font-size: 16px;
+body {
+          font-size: 16px;
   }
-}
-
-/* styles pour les écrans plus petits */
-@media only screen and (max-width: 767px) {
-  body {
-    font-size: 14px;
+  
+  @media (min-width: 768px) {
+	body {
+	  font-size: 18px;
+	}
   }
-}
+  
+  @media (min-width: 1024px) {
+	body {
+	  font-size: 20px;
+	}
+  }
